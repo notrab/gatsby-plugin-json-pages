@@ -29,7 +29,7 @@
       [
         "@semantic-release/npm",
         {
-          "pkgRoot": "gatsby-source-json-pages"
+          "pkgRoot": "gatsby-plugin-json-pages"
         }
       ],
       "@semantic-release/github"
