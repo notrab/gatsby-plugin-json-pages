@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "workspaces": [
+    "demo",
+    "gatsby-plugin-json-pages"
+  ],
+  "scripts": {
+    "build": "yarn workspace demo build",
+    "clean": "yarn workspace demo clean",
+    "dev": "yarn workspace demo dev",
+    "serve": "yarn workspace demo serve"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  },
+  "release": {
+    "branches": [
+      {
+        "name": "master"
+      },
+      {
+        "name": "next",
+        "prerelease": true
+      }
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/npm",
+        {
+          "pkgRoot": "gatsby-source-json-pages"
+        }
+      ],
+      "@semantic-release/github"
+    ]
+  }
+}
