@@ -5322,23 +5322,10 @@ gatsby-cli@^2.19.2:
     yoga-layout-prebuilt "^1.9.6"
     yurnalist "^2.1.0"
 
-gatsby-core-utils@^1.10.1:
+gatsby-core-utils@^1.10.0, gatsby-core-utils@^1.10.1:
   version "1.10.1"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.10.1.tgz#97bed40df3fa79800e7ce0c0491680f0aadd6ce7"
   integrity sha512-4P3feGCJckg+DRWWl2beFk7N9c63zmCryEGPaU1OHCp+ZT2bO0ihCBuXywDWuuEp6SYP9PZ1fs0YJ/Rt6q6lag==
-  dependencies:
-    ci-info "2.0.0"
-    configstore "^5.0.1"
-    fs-extra "^8.1.0"
-    node-object-hash "^2.0.0"
-    proper-lockfile "^4.1.1"
-    tmp "^0.2.1"
-    xdg-basedir "^4.0.0"
-
-gatsby-core-utils@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.8.0.tgz#712579cd94d28c71f50202f073e15b8781f8b195"
-  integrity sha512-MurWnytVVG9rOai0oAdcCsLODqj7P7Y9ndoAswHDk6hrlsWwiRMOsDS1kEyL7n2BM7lhgzZ+gz9OaOukqU1BhA==
   dependencies:
     ci-info "2.0.0"
     configstore "^5.0.1"
@@ -5501,17 +5488,17 @@ gatsby-recipes@^0.9.2:
     xstate "^4.9.1"
     yoga-layout-prebuilt "^1.9.6"
 
-gatsby-source-filesystem@2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.9.0.tgz#df89799456dc7edc22c36ea6cc3060e25287bb48"
-  integrity sha512-aKsb5GnnYwhAzCJZ9ChMWZqd1QhN6VGCEX3UAM/XuG6LSoqLmWyPUXo687n2ULpNPZfwb0X+HZRYzUhkje1UZA==
+gatsby-source-filesystem@2.11.0:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.11.0.tgz#3fff5398796b17eb960e83d0eaa99e578b6e4ef1"
+  integrity sha512-SLKksyfRvdMHyF0kb3YCr4ME6RW4Pje9zo1RVAJ1sqaBFDch0YUZzTE51QO586JSkrN00UeE8lU++ODXlm425g==
   dependencies:
     "@babel/runtime" "^7.12.5"
     better-queue "^3.8.10"
     chokidar "^3.4.3"
     file-type "^16.0.0"
     fs-extra "^8.1.0"
-    gatsby-core-utils "^1.8.0"
+    gatsby-core-utils "^1.10.0"
     got "^9.6.0"
     md5-file "^5.0.0"
     mime "^2.4.6"
@@ -5520,14 +5507,14 @@ gatsby-source-filesystem@2.9.0:
     valid-url "^1.0.9"
     xstate "^4.14.0"
 
-gatsby-source-graphcms@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/gatsby-source-graphcms/-/gatsby-source-graphcms-2.2.0.tgz#bcfc62e16940c1d52ddfe39d89cdaa1783a988ae"
-  integrity sha512-H4Li//AR96Kk4EVfXhopqYUQA2J2xXmNQvWBaYVlUEagw0jlT+DhfQkNzgQ+PR0JrfZrFrHaewlJYVIEt0wsEQ==
+gatsby-source-graphcms@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-graphcms/-/gatsby-source-graphcms-2.3.0.tgz#3d2e522828459cccbd352cc2b8c33ab8948dd217"
+  integrity sha512-6OAb5ji8p9xpyZ2RCQJw744YxDQgn+hckAEUw+uPFaQpqhKJKj7PRFXaBeDAkkVLK6IjxOzL+or7QpPnpsXD7w==
   dependencies:
     "@babel/runtime" "7.12.5"
     gatsby-graphql-source-toolkit "0.6.3"
-    gatsby-source-filesystem "2.9.0"
+    gatsby-source-filesystem "2.11.0"
     he "1.2.0"
     node-fetch "2.6.1"
 
