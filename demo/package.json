@@ -9,7 +9,7 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "gatsby": "2.32.11",
+    "gatsby": "2.32.12",
     "gatsby-plugin-json-pages": "*",
     "gatsby-source-graphcms": "2.3.0",
     "react": "16.14.0",
