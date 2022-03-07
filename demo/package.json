@@ -11,7 +11,7 @@
   "dependencies": {
     "gatsby": "2.32.13",
     "gatsby-plugin-json-pages": "*",
-    "gatsby-source-graphcms": "2.3.0",
+    "gatsby-source-graphcms": "2.8.0",
     "react": "16.14.0",
     "react-dom": "16.14.0"
   },
